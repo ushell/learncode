@@ -23,10 +23,7 @@
 // stream模式
 cd route_guide && go run server/server.go
 
-// unary模式（示例一）
-cd helloworld/greeter_server && go run main.go
-
-// unary模式(示例二)
+// unary模式
 // 参考: https://hyperf.wiki/2.1/#/zh-cn/grpc?id=grpc-server-%e7%a4%ba%e4%be%8b
 bin/hyperf.php start
 ```
